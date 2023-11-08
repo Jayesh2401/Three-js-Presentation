@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.bg-port {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  font-family: "Cabin", sans-serif;
+  color: #ffeded;
+  text-transform: uppercase;
+  font-size: 7vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+section:nth-child(odd) {
+  justify-content: flex-end;
+}
+
+.wholepage {
+  background-color: #dfd5e9;
+  height: 100%;
+  padding-inline: 15px;
+}
+
+.heading {
+  display: flex;
+  padding-top: 15px;
+  justify-content: center;
+}
+
+.answer {
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.heasdtitle {
+  padding-top: 10px;
+}
+
+.pillar{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.listview{
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-right: 50px;
+}
+
+.listWrap{
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.start{
+  margin-inline: auto;
+  display: flex;
+    align-items: center;
+  padding: 3px 10px 3px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: navajowhite;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
